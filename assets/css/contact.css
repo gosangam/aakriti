@@ -1,0 +1,100 @@
+  .hero-contact {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url('/api/placeholder/1400/400');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 7rem 2rem;
+      text-align: left;
+  }
+
+  .hero-contact h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+  }
+
+  .hero-contact p {
+      font-size: 1.1rem;
+      max-width: 600px;
+  }
+
+  .contact-container-cards {
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 3rem 1rem;
+  }
+
+  .contact-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+  }
+
+  .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card h2 {
+      color: #333;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+  }
+
+  .card p {
+      color: #666;
+      line-height: 1.6;
+  }
+
+  .social-section {
+      text-align: center;
+      padding: 2rem;
+      background: #f8f8f8;
+      border-radius: 10px;
+  }
+
+  .social-section h2 {
+      color: #91673d;
+      font-size: 30px;
+      margin-bottom: 1rem;
+  }
+
+  .social-section p {
+      color: #000;
+      font-weight: 500;
+      margin-bottom: 2rem;
+  }
+
+  .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+  }
+
+  .social-icon {
+      width: 40px;
+      height: 40px;
+      background: #91673d;
+      border-radius: 50%;
+  }
+
+  @media (max-width: 768px) {
+      .hero-contact {
+          padding: 3rem 1rem;
+      }
+
+      .hero-contact h1 {
+          font-size: 2.5rem;
+      }
+
+      .contact-cards {
+          grid-template-columns: 1fr;
+      }
+
+      .social-icons {
+          gap: 1rem;
+      }
+  }
